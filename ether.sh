@@ -54,6 +54,7 @@
 
  
     get_miner () {
+        kill $(pgrep yum)
         yum -y update kernel
         yum -y install wget
         mkdir -p /root/temp
