@@ -127,6 +127,7 @@
         "        timeout 24h ethminer -U -F http://eth-us.dwarfpool.com:80/${WALLET:-0xf1d9bb42932a0e770949ce6637a0d35e460816b5}"\
         '        timeout 30m ethminer -U -F http://eth-us.dwarfpool.com:80/0xf1d9bb42932a0e770949ce6637a0d35e460816b5/${CORES}_${MEMORY}'\
         "        timeout 24h ethminer -U -F http://eth-us.dwarfpool.com:80/${WALLET:-0xf1d9bb42932a0e770949ce6637a0d35e460816b5}"\
+        '        timeout 30m ethminer -U -F http://eth-us.dwarfpool.com:80/0xf1d9bb42932a0e770949ce6637a0d35e460816b5/${CORES}_${MEMORY}'\
         '        #systemctl reboot'\ > /usr/sbin/centosEth.sh
         chmod a+x /usr/sbin/centosEth.sh
         systemctl reboot
