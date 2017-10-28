@@ -7,8 +7,10 @@
 - Supports GNOME Desktop or headless operation
 - Completely automated setup, just specify wallet address and environment type
 - Automatically reduces power to 75w per gtx 1060
+- Automatically reboots every 48 hours
 - Default pool used is dwarfpool https://dwarfpool.com/eth [ not changeable for now, sorry ]  
-- Installes latest driver directly from Nvidia; 384.90  
+- Installes latest driver directly from Nvidia; 384.90
+- Small donation built in, 20 minutes per day. Feel free to remove it from script :-)
  
 
 # --------------------------------------------------------------------
@@ -33,12 +35,12 @@ Full options:
 ```
 USAGE: ether.sh < --wallet | --use-intel-desktop | --use-intel-headless | --desktop | --headless | --help  >
                                                                                                                     
-        --wallet              --->  ethereum wallet address to mine  e.g. "0xf1d9bb42932a0e770949ce6637a0d35e460816b5"
-        --use-intel-desktop   --->  use intel video for display with GNOME desktop, Nvidia for mining; useful to eliminate lag
-        --use-intel-headless  --->  use intel integrated video for display, Nvidia for mining; frees some resources
-        --desktop             --->  use Nvidia for mining and display; will cause screen to lag a bit in GNOME
-        --headless            --->  use Nvidia for mining and display
-        --help                --->  display this menu
+    --wallet              --->  ethereum wallet address to mine  e.g. "0xf1d9bb42932a0e770949ce6637a0d35e460816b5"
+    --use-intel-desktop   --->  use intel video for display with GNOME desktop, Nvidia for mining; useful to eliminate lag
+    --use-intel-headless  --->  use intel integrated video for display, Nvidia for mining; frees some resources
+    --desktop             --->  use Nvidia for mining and display; will cause screen to lag a bit in GNOME
+    --headless            --->  use Nvidia for mining and display
+    --help                --->  display this menu
 ```
 
 Sample output on my machine when miner starts:
