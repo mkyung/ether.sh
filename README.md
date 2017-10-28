@@ -31,10 +31,17 @@ Your computer will restart twice before launching the miner. If your on a fast c
 Full options:
 
 ```
+USAGE: ether.sh < --wallet | --use-intel-desktop | --use-intel-headless | --desktop | --headless | --help  >
+                                                                                                                    
+        --wallet              --->  ethereum wallet address to mine  e.g. "0xf1d9bb42932a0e770949ce6637a0d35e460816b5"
+        --use-intel-desktop   --->  use intel video for display with GNOME desktop, Nvidia for mining; useful to eliminate lag
+        --use-intel-headless  --->  use intel integrated video for display, Nvidia for mining; frees some resources
+        --desktop             --->  use Nvidia for mining and display; will cause screen to lag a bit in GNOME
+        --headless            --->  use Nvidia for mining and display
+        --help                --->  display this menu
 ```
-After the script is done installing all steps, it will launch automatically at boot (your account will automatically be logged in and the screen locked. When you log in you will see the miner working in a terminal window. This will make your computer run slow of course. To stop mining at anytime, run `top` or `ps` commands in a separate terminal with apropriate options to kill the ethminer process. 
 
-If you are interested in overclocking only run ./eth.sh -o. Do not install the script. You should see output like the following:
+Sample output on my machine when miner starts:
 
 ```
 
@@ -46,6 +53,8 @@ All done.
 setting power limit to 75 watts..
 Power limit for GPU 0000:01:00.0 was set to 75.00 W from 120.00 W.
 All done.
+```
+
 
 ```
 
