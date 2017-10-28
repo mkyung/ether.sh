@@ -27,7 +27,7 @@ Your computer will restart twice before launching the miner. If your on a fast c
 
 `sudo chmod a+x ether.sh`
 
-`sudo ./eth.sh -w 0xf1d9bb42932a0e770949ce6637a0d35e460816b5 --use-intel-desktop`
+`sudo ./ether.sh --wallet 0xf1d9bb42932a0e770949ce6637a0d35e460816b5 --use-intel-desktop`
 
 Full options:
 
