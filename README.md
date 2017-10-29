@@ -1,4 +1,4 @@
-# eth.sh
+# ether.sh
 ## Centos 7 Intel + Nvidia Mining setup script
 
 ### Features
