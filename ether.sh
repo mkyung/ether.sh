@@ -10,7 +10,7 @@
     if [ ping -c 2 8.8.8.8 ] || [ ping -c 8.8.4.4 ] ; then
         :
     else
-        printf "%s\n" 'You don't appear to have internet connectivity; activate network and re-run the script'
+        printf "%s\n" "It looks like you have no internet connectivity, activate network and re-run the script"
         exit 1
     fi    
 
