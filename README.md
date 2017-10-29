@@ -9,7 +9,7 @@
 - Automatically reduces power to 75w per gtx 1060; 95w per gtx 1070
 - Default pool used is dwarfpool https://dwarfpool.com/eth [ not changeable for now, sorry ]  
 - Installes latest driver directly from Nvidia; 384.90
-- Small donation built in, 20 minutes per day. Feel free to remove it from script :-)
+- Small donation built in, 24 minutes per day. Feel free to remove it from script :-)
  
 
 # --------------------------------------------------------------------
