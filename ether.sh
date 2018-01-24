@@ -67,12 +67,12 @@
         yum -y install wget
         mkdir -p /root/temp
         cd /root/temp
-        wget https://github.com/ethereum-mining/ethminer/releases/download/v0.12.0/ethminer-0.12.0-Linux.tar.gz
-        tar xzf ethminer-0.12.0-Linux.tar.gz
+        wget https://github.com/ethereum-mining/ethminer/releases/download/v0.13.0/ethminer-0.13.0-Linux.tar.gz
+        tar xzf ethminer-0.13.0-Linux.tar.gz
         cp /root/temp/bin/ethminer /usr/sbin/ethminer
         chmod a+x /usr/sbin/ethminer
         rm -rf /root/temp/bin
-        rm -f /root/temp/ethminer-0.12.0-Linux.tar.gz
+        rm -f /root/temp/ethminer-0.13.0-Linux.tar.gz
     }
 
 
