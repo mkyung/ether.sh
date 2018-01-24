@@ -93,10 +93,10 @@
         "    yum -y install kernel-devel"\
         '    yum -y install kernel-devel-$(uname -r)'\
         "    yum -y groupinstall \"Development Tools\""\
-        '    wget http://us.download.nvidia.com/XFree86/Linux-x86_64/384.90/NVIDIA-Linux-x86_64-384.90.run'\
-        '    chmod a+x NVIDIA-Linux-x86_64-384.90.run'\
-        "    ./NVIDIA-Linux-x86_64-384.90.run ${NVIDIA_OPTIONS}"\
-        "    rm -f NVIDIA-Linux-x86_64-384.90.run"\
+        '    wget http://us.download.nvidia.com/XFree86/Linux-x86_64/387.34/NVIDIA-Linux-x86_64-387.34.run'\
+        '    chmod a+x NVIDIA-Linux-x86_64-387.34.run'\
+        "    ./NVIDIA-Linux-x86_64-387.34.run ${NVIDIA_OPTIONS}"\
+        "    rm -f NVIDIA-Linux-x86_64-387.34.run"\
         "    touch /.driver_installed"\
         '}'\
         '    if [ -e /.nouveau_blacklisted ]'\
